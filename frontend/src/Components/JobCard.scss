@@ -1,0 +1,29 @@
+.jobcard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0px;
+
+  .title-container {
+    height: 12rem;
+    padding: 10px;
+
+    .title {
+      word-wrap: break-word;
+      color: white;
+    }
+  }
+
+  .card-text {
+    .location,
+    .term {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    span {
+      display: block;
+    }
+  }
+
+  .card-body.link {
+    text-align: right;
+  }
+}

@@ -1,0 +1,42 @@
+
+pages for 
+jobs
+search results
+work with us
+
+navbar links
+
+submit a CV popup
+
+searchbar:
+keyboard navigation 
+close on clicking outside 
+
+
+view more jobs 
+
+contact form 
+
+footer: social media links
+
+everywhere: geolocation
+
+munawwar record video
+
+responsiveness everywhere 
+
+backend? login? 
+
+favourite jobs - local storage or database?
+
+
+
+video - later
+
+and infographic - submit a CV - coffee table, etc.
+
+our consultants - maybe
+
+what our clients say square1 - saved in my documents
+
+fix textarea

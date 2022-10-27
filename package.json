@@ -1,0 +1,25 @@
+{
+  "name": "square-search-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend-deps": "npm install --prefix frontend",
+    "server": "nodemon server.js",
+    "frontend": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,11 @@
+.modal {
+    width: unset !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+  /* .jobs-preview .rows>* {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  } */
