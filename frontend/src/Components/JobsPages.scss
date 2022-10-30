@@ -1,0 +1,29 @@
+.jobsHeader {
+  background-color: purple;
+  height: 300px;
+}
+
+.jobs-page-preview {
+  background-color: yellow;
+  display: flex;
+}
+
+.jobsCard {
+  // background-color: pink !important;
+  // width: 450px !important;
+  flex: 1;
+}
+
+.jobDetails {
+  // width: 500px;
+  flex: 2;
+  background-color: green;
+}
+
+.jobHeading {
+  height: 200px;
+  // background-color: magenta !important;
+}
+.jobHeading h5 {
+  font-size: 40px;
+}

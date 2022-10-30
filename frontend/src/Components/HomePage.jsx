@@ -43,7 +43,7 @@ const HomePage = () => {
       >
         Under Construction Button
       </button>
-      <NavBar />
+      {/* <NavBar /> */}
       <Header />
       <Services />
       <HomeIntro />

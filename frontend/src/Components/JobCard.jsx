@@ -1,9 +1,18 @@
-import React from 'react';
 import './JobCard.scss';
 
-const JobCard = ({ title, description, location, term, className }) => {
+const JobCard = ({
+  title,
+  description,
+  location,
+  term,
+  className,
+  sendJobInfo,
+}) => {
   return (
-    <div className={`jobcard card ${className}`}>
+    <div
+      className={`jobcard card ${className}`}
+      onClick={() => sendJobInfo({ title, description, location })}
+    >
       <div className="title-container d-flex bg-info align-items-center justify-content-center text-center">
         <h5 className="title">{title}</h5>
       </div>

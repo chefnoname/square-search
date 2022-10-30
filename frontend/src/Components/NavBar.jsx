@@ -1,7 +1,3 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import JobsPage from './JobsPage';
-
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
