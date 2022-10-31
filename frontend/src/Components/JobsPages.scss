@@ -1,13 +1,16 @@
+.pageContainer {
+  overflow: hidden;
+}
 .jobsHeader {
-  background-color: purple;
+  background-color: #212529;
   height: 300px;
 }
 
 .searchBar {
   display: flex;
   position: relative;
-  top: 150px;
-  left: 10%;
+  top: 140px;
+  left: 12%;
   width: 100%;
 }
 
@@ -16,7 +19,8 @@
 }
 
 .searchBtn {
-  background-color: pink !important;
+  color: black !important;
+  border-radius: 0 !important;
 }
 
 .jobs-page-preview {
@@ -26,6 +30,20 @@
 
 .jobCardContainer {
   height: 1000px;
+}
+
+.jobsCard {
+  height: 1000px;
+  overflow-x: scroll;
+}
+
+.jobsCard::-webkit-scrollbar {
+  // display: none;
+  width: 1px;
+}
+
+.singleJob:hover {
+  cursor: pointer;
 }
 
 .jobDetails {
@@ -77,9 +95,16 @@
 }
 
 .jobsPageBtn {
-  background-color: green;
+  background-color: #212529;
   width: 90%;
   margin-left: 40px;
   position: relative;
   top: 50px;
+  color: white;
+  transition: background-color 300ms ease-out 100ms;
+}
+
+.jobsPageBtn:hover {
+  background-color: #ffc800 !important;
+  color: white !important;
 }

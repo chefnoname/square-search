@@ -3,6 +3,7 @@ import { JOBS } from '../jobs';
 import JobCard from './JobCard';
 import useScreenType from 'react-screentype-hook';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 const JobsPreview = () => {
   const { isLargeDesktop, isDesktop, isMobile, isTablet } = useScreenType();
@@ -36,12 +37,9 @@ const JobsPreview = () => {
           ))}
         </div>
         <div className="d-flex justify-content-center my-5">
-          <button
-            type="button"
-            className="btn btn-primary btn-xl text-uppercase"
-          >
+          <Link to="/jobs" className="btn btn-primary btn-xl text-uppercase">
             <strong>View more jobs</strong>
-          </button>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom';
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
-        <a className="navbar-brand" href="#page-top">
+        {/* Need to fix link when we click picutre it scrolls to top of the page - 
+        or have a new button to scroll to the top? */}
+        <Link to="/" className="navbar-brand">
           <img src="assets/img/navbar-logo.svg" alt="square-search-logo" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,14 +24,14 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#header">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/jobs">
                 Jobs
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#home-intro">
