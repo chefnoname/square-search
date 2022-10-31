@@ -2,7 +2,7 @@ What needs to be (Features/Functionality):
 
 - Home component: Clicking a Job will present that Job on JobsPage component
 
-- JobsPage component: Search bar needs to list out jobs on enter
+- JobsPage component: Search bar component needs to list out jobs on enter
 
 - Applications Component needs to be made:
   Where a client fills his details and his manhaj
@@ -15,3 +15,9 @@ What needs to be (Features/Functionality):
 Styling:
 
 - Style Jobs page
+
+Ahmeds Micromanaging:
+
+- Have a share button to export the job
+- Get the website out there with a contact number
+  - So when it starts to grow more we can build the db

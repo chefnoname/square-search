@@ -26,6 +26,7 @@ const JobsPage = () => {
   return (
     <div className="pageContainer">
       <div className="jobsHeader">
+        {/* Bring in search bar component */}
         <div className="searchBar">
           <form onSubmit={onSubmit}>
             <input
