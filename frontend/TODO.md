@@ -1,3 +1,8 @@
+TODAY:
+
+- SEARCH BAR COMPONENT IN JOB PAGE
+- CLICKING ON JOB ON HOMEPAGE SETS THE FIRST JOB ON JOBPAGE
+
 What needs to be (Features/Functionality):
 
 - Home component: Clicking a Job will present that Job on JobsPage component
@@ -16,7 +21,7 @@ Styling:
 
 - Style Jobs page
 
-Ahmeds Micromanaging:
+Ahmed:
 
 - Have a share button to export the job
 - Get the website out there with a contact number

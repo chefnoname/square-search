@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { JOBS } from '../jobs';
 import JobCard from './JobCard';
+import SearchBar from './SearchBar';
 import './JobsPages.scss';
 
 const JobsPage = () => {
@@ -15,7 +16,6 @@ const JobsPage = () => {
     setUseJobInfo({ title, description, location });
 
   console.log(useJobInfo);
-  const onSubmit = () => console.log('heyyy');
 
   const {
     title: jobTitle,
@@ -28,7 +28,7 @@ const JobsPage = () => {
       <div className="jobsHeader">
         {/* Bring in search bar component */}
         <div className="searchBar">
-          <form onSubmit={onSubmit}>
+          {/* <form onSubmit={onSubmit}>
             <input
               className="form-control form-control-lg"
               id="jobsearch"
@@ -44,7 +44,8 @@ const JobsPage = () => {
             className="btn btn-xl text-uppercase searchBtn btn-primary"
           >
             <strong>find</strong>
-          </button>
+          </button> */}
+          <SearchBar />
         </div>
       </div>
 
